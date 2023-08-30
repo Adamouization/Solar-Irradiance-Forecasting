@@ -1,7 +1,6 @@
-tqdm
-pmdarima
-pandas
-statsmodels
 matplotlib
 numpy
+pandas
+pmdarima
+statsmodels
 tqdm
