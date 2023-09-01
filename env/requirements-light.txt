@@ -4,3 +4,4 @@ pandas
 pmdarima
 statsmodels
 tqdm
+prophet
