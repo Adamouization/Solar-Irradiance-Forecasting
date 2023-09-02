@@ -11,3 +11,12 @@ def print_df_index_date_range(df, sample_str: str):
         date_max=max(df.index)
     ))
     print()
+
+
+def print_df_date_range(df, col_str, sample_str: str):
+    print("{sample} dataset date ranges = {date_min} to {date_max}".format(
+        sample=sample_str,
+        date_min=min(df[col_str]), 
+        date_max=max(df[col_str])
+    ))
+    print()
