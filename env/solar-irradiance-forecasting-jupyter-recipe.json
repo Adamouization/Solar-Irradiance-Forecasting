@@ -8,7 +8,12 @@
   "description": "Solar irradiance forecasting using ML and DL techniques.",
   "environment_variables": {},
   "working_directory": "/home/jovyan/Solar-Irradiance-Forecasting",
-  "start_script": "#!/bin/bash \necho \"Setting up Cloud environment...\"\n\necho \"Changing directory to '/home/jovyan/Solar-Irradiance-Forecasting'...\"\ncd  /home/jovyan/Solar-Irradiance-Forecasting\n\n#echo \"Updating apt-get and installing the latest version of 'libgl1-mesa-glx'...\"\n#sudo apt-get update \n#sudo apt-get install -y libgl1-mesa-glx \n\necho \"Installing Python libraries...\"\npip install scikit-learn tqdm\n\necho \"Exporting variables...\"\nexport TF_ENABLE_ONEDNN_OPTS=0\n\necho \"Setup completed successfully.\"",
+  "extra_packages": {
+    "pip": {
+      "install": "tqdm pmdarima pandas statsmodels matplotlib numpy tqdm prophet tensorflow openpyxl"
+    }
+  },
+  "start_script": "#!/bin/bash \necho \"Setting up Cloud environment...\"\n\necho \"Changing directory to '/home/jovyan/Solar-Irradiance-Forecasting'...\"\ncd  /home/jovyan/Solar-Irradiance-Forecasting\n\n#echo \"Updating apt-get and installing the latest version of 'libgl1-mesa-glx'...\"\n#sudo apt-get update \n#sudo apt-get install -y libgl1-mesa-glx \n\necho \"Exporting variables...\"\nexport TF_ENABLE_ONEDNN_OPTS=0\n\necho \"Setup completed successfully.\"",
   "git_repositories": [
     {
       "url": "git@github.com:saturncloud/examples.git",
