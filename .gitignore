@@ -2,6 +2,7 @@
 data
 local
 output
+notes.md
 
 *.bundle.*
 lib/

@@ -5,3 +5,5 @@ pmdarima
 statsmodels
 tqdm
 prophet
+tensorflow
+openpyxl
