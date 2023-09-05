@@ -1,7 +1,9 @@
 # Project-specific files
 data
 local
-output
+output/*.json
+output/keras_tuning/
+output/lstm_history/
 notes.md
 
 *.bundle.*
