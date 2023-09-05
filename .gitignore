@@ -2,8 +2,9 @@
 data
 local
 output/*.json
-output/keras_tuning/
+output/lstm_keras_tuning/
 output/lstm_history/
+output/lstm_models/archive/
 notes.md
 
 *.bundle.*

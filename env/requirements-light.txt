@@ -1,9 +1,19 @@
+# General packages
+tqdm
+openpyxl
+
+# General Data Science packages
 matplotlib
 numpy
 pandas
+
+# ARIMA packages
 pmdarima
 statsmodels
-tqdm
+
+# Prophet packcage
 prophet
+
+# Deep Learning packagees
 tensorflow
-openpyxl
+keras-tuner
