@@ -16,7 +16,7 @@ The objective is to leverage the various historical data provided in the *"[A co
 
 ## Preliminary LSTM result
 
-![image](https://raw.githubusercontent.com/Adamouization/Solar-Irradiance-Forecasting/master/output/model_validation/lstm_v4_forecast_vs_actual.png?token=GHSAT0AAAAAABR3WS7G7QAHEYZITWSNTZUAZHY6OBQ)
+![image](https://raw.githubusercontent.com/Adamouization/Solar-Irradiance-Forecasting/master/output/model_validation/lstm_v4_forecast_vs_actual.png)
 
 ## Setup
 
